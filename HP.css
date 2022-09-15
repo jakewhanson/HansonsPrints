@@ -1,0 +1,383 @@
+@charset "UTF-8";
+/*START MAIN CSS*/
+
+a:hover {
+    text-decoration: none;
+    transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    text-shadow: 1px 1px 5px #000, -1px -1px 5px #2a2a2a, 2px 2px 10px #000, -2px -2px 20px #2a2a2a;
+    color: #ff0050;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg {
+    background: url(https://hansonsprints.000webhostapp.com/pictures/HansonsPrints.png);
+    background-size: 2000px;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+.icon {
+    width: 50px;
+    margin-top: 1px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.divider-vertical {
+    height: 56px;
+    margin: 0 6px;
+    border-right-color: #ff0050;
+    border-left-color: #fff;
+    border-right-width: 3px;
+    border-left-width: 3px;
+}
+
+.navitem {
+    font-size: 24pt;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+}
+
+.navitem:hover {
+    text-decoration: none;
+    transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    text-shadow: 1px 1px 5px #000, -1px -1px 5px #2a2a2a, 2px 2px 10px #000, -2px -2px 20px #2a2a2a;
+    color: #ff0050;
+}
+
+.navcontact {
+    font-size: 24pt;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+}
+
+.navcontact:hover {
+    text-decoration: none;
+    transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    text-shadow: 1px 1px 5px #000, -1px -1px 5px #2a2a2a, 2px 2px 10px #000, -2px -2px 20px #2a2a2a;
+    color: #ff0050;
+}
+
+.logo {
+    text-align: center;
+    text-shadow: 4px 5px 4px #000;
+}
+
+.hansonHeader {
+    text-align: center;
+    font-family: Dafoe, sans-serif;
+    font-size: 100pt;
+    margin: -60pt;
+    text-shadow: 5px 7px 5px #000000;
+    color: #FFFFFF;
+}
+
+.homedesc {
+    font-size: 40pt;
+    font-family: Homenaje, sans-serif;
+    text-align: center;
+    margin: 40pt;
+    text-shadow: 4px 5px 4px #000;
+    color: #FFFFFF;
+}
+
+.btnRequestP {
+    text-align: center;
+}
+
+.btnRequest {
+    text-align: center;
+    font-size: 70pt;
+    color: #fff;
+    font-family: Dafoe, sans-serif;
+    margin: 20pt;
+    background-color: #fff;
+    color: #000;
+    padding: 75pt 200pt;
+    border-radius: 15pt;
+    border: 4px solid #000;
+}
+
+.btnRequest:hover {
+    text-decoration: none;
+    transition: all 0.40s ease-in-out;
+    -webkit-transition: all 0.40s ease-in-out;
+    -moz-transition: all 0.40s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+    text-shadow: 1px 1px 5px #ff0050, -1px -1px 5px #ff0050, 2px 2px 10px #ff0050, -2px -2px 20px #ff0050;
+    color: #000;
+}
+
+.homeheader {
+    text-align: center;
+    font-family: Dafoe, sans-serif;
+    font-size: 100pt;
+    margin: -50pt;
+    text-shadow: 4px 5px 4px #000000;
+    color: #FFFFFF;
+    background-image: url(https://hansonsprints.000webhostapp.com/pictures/headerBG.png);
+}
+
+.prints {
+    background-color: #2a2a2a;
+    font-size: 30pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+}
+
+.pricing {
+    font-size: 30pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+}
+
+.pricingLarger {
+    font-size: 30pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+}
+
+.pSub {
+    font-size: 20pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+    margin-top: -30pt;
+}
+
+.vary {
+    font-size: 16pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 2px 3px 2px #000;
+}
+
+.request {
+    font-size: 30pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+}
+
+.mail {
+    font-size: 22pt;
+    text-align: left;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+    margin-left: 10pt;
+    margin-top: -10pt;
+}
+
+.ship {
+    font-size: 30pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+}
+
+.shipL {
+    font-size: 40pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+}
+
+.cert {
+    font-size: 25pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+}
+
+.certPic {
+    font-size: 25pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+.photos {
+    font-size: 25pt;
+    text-align: center;
+    font-family: Homenaje, sans-serif;
+    color: #fff;
+    text-shadow: 3px 4px 3px #000;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    font-size: 14pt;
+    font-family: Homenaje, sans-serif;
+    text-align: center;
+    vertical-align: bottom;
+    text-shadow: 4px 5px 4px #000;
+    color: #fff;
+    background-color: #222222;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+@font-face {
+    font-family: "Dafoe";
+    src: url('https://fonts.gstatic.com/s/mrdafoe/v5/uZ97Ol8ozFq27olhOMuMCPesZW2xOQ-xsNqO47m55DA.woff2'), url('https://fonts.gstatic.com/s/mrdafoe/v5/uZ97Ol8ozFq27olhOMuMCPesZW2xOQ-xsNqO47m55DA.woff2'); /* IE */
+}
+
+@font-face {
+    font-family: "Homenaje";
+    src: url("https://fonts.gstatic.com/l/font?kit=NXfSfQrYV8xV0ZhCOumchq2nQdMB71TB_rZTUiXPfJkZ3PKrsF8trnlDXSX4hGfu&skey=9b887fa224ab3cec&v=v6");
+}
+
+/*END MAIN CSS*/
+
+/*START NAV CSS*/
+.navbar-inverse {
+  *position: relative;
+  *z-index: 2;
+  overflow: visible;
+}
+
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-repeat: repeat-x;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+.navbar-inverse .navbar-inner {
+  background-color: #1b1b1b;
+  background-image: -moz-linear-gradient(top, #222222, #111111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+  background-image: -webkit-linear-gradient(top, #222222, #111111);
+  background-image: -o-linear-gradient(top, #222222, #111111);
+  background-image: linear-gradient(to bottom, #222222, #111111);
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  border-width: 0 0 1px;
+}
+
+.navbar-fixed-bottom .navbar-inner {
+  border-width: 1px 0 0;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-fixed-bottom .navbar-inner {
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
+
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}
+
+.navbar-fixed-top {
+  top: 0;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav {
+  position: relative;
+  left: -4px;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.navbar .nav.pull-right {
+  float: right;
+  margin-right: 0;
+}
+
+.navbar .nav > li {
+	list-style: none;
+  float: left;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #000000;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav > li > a {
+  display: block;
+}
